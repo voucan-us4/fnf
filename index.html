@@ -1,53 +1,80 @@
 <html>
-	<div class="header">
-  <h1>Carson's Friday Night Funkin Mods</h1>
-</div>
-	<style>
-body {
-  background-image: url('bg.png');
-} 
-</style>
-	<title>Carson's Mods</title>	
-	<a href="https://funkymods.github.io/shaggymatt" target="_blank" style="color: green">shaggy x matt</a>
-	<a href="https://funkymods.github.io/Corruption" target="_blank" style="color: purple">corruption</a>
-	<a href="https://funkymods.github.io/Miku" target="_blank" style="color: pink">Miku</a>
-	<a href="https://funkymods.github.io/XE" target="_blank" style="color: yellow">vs XE</a>
-	<a href="https://funkymods.github.io/ann" target="_blank" style="color: green">ann</a>
-	<a href="https://funkymods.github.io/bsides" target="_blank" style="color: yellow">bsides</a>
-	<a href="https://funkymods.github.io/deepseadate" target="_blank" style="color: blue">deep sea date</a>
-	<a href="https://funkymods.github.io/everywhereattheendoffunk" target="_blank" style="color: gray">EATEOF</a>
-	<a href="https://funkymods.github.io/flipside" target="_blank" style="color: red">FlipSide</a>
-	<a href="https://funkymods.github.io/h3llbeats" target="_blank" style="color: red">Heck beats</a>
-	<a href="https://funkymods.github.io/henry" target="_blank" style="font-size: px; style="color: orange">vs Henry Stickmin</a>
-	<a href="https://funkymods.github.io/hex" target="_blank" style="color: blue">vs Hex</a>
-	<a href="https://funkymods.github.io/kapi" target="_blank" style="color: gray">vs kapi (old)</a>
-	<a href="https://funkymods.github.io/matt" target="_blank" style="color: orange">vs Matt (first 2 weeks)</a>
-	<a href="https://funkymods.github.io/minus" target="_blank" style="color: yellow">Friday Night Funkin:Minus</a>
-	<a href="https://funkymods.github.io/monika" target="_blank" style="color: pink">vs Monika Full Week</a>
-	<a href="https://funkymods.github.io/neo" target="_blank" style="color: purple">FNF Neo (old)</a>
-	<a href="https://funkymods.github.io/rosecriminal" target="_blank" style="color: brown">Michael Jackson's Smooth Criminal over "Roses"</a>
-	<a href="https://funkymods.github.io/saltyssundaynight" target="_blank" style="color: gray">Salty's Sunday Night</a>
-	<a href="https://funkymods.github.io/shaggy" target="_blank" style="color: green">vs Shaggy (old)</a>
-	<a href="https://funkymods.github.io/shaggyhd" target="_blank" style="color: green">vs Shaggy HD</a>
-	<a href="https://funkymods.github.io/smokeemoutstruggle" target="_blank" style="color: green">vs Garcello</a>
-	<a href="https://funkymods.github.io/starcatcher" target="_blank" style="color: pink">Star Catcher</a>
-	<a href="https://funkymods.github.io/sussy2" target="_blank" style="color: red">vs Impostor 2.0</a>
-	<a href="https://funkymods.github.io/tabi" target="_blank" style="color: yellow">vs Ex</a>
-	<a href="https://funkymods.github.io/tord" target="_blank" style="color: red">vs tord</a>
-	<a href="https://funkymods.github.io/touhou" target="_blank" style="color: orange">Touhou</a>
-	<a href="https://funkymods.github.io/upside" target="_blank" style="color: pink">FNF Upside</a>
-	<a href="https://funkymods.github.io/void" target="_blank" style="color: purple">vs Void</a>
-	<a href="https://funkymods.github.io/vschara" target="_blank" style="color: red">vs Chara</a>
-	<a href="https://funkymods.github.io/week6" target="_blank" style="color: pink">Week 6</a>
-	<a href="https://funkymods.github.io/week7" target="_blank" style="color: yellow">Week 7</a>
-	<a href="https://funkymods.github.io/whitman" target="_blank" style="color: orange">vs Whitty</a>
-	<a href="https://funkymods.github.io/x-sides" target="_blank" style="color: black">X Sides</a>
-	<a href="https://funkymods.github.io/xevent" target="_blank" style="color: white">X event</a>
-	<a href="https://funkymods.github.io/zardy" target="_blank" style="color: brown">vs Zardy (old)</a>
-        <a href="https://funkymods.github.io/tricky" target="_blank" style="color: red">Tricky FULL WEEK</a>											    
-        <a href="https://funkymods.github.io" target="_blank" style="color: green">Impostor V3</a>												    
-	<a href="https://carsonharrell.github.io/dusttale" target="_blank" style="color: green">Dust Tale</a>										    
-	
-	
-	
-</html>    
+<head>
+    <title>FNF Mods</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .header h1 {
+            color: gold;
+            margin-bottom: 20px;
+        }
+        .mod-button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            border: 2px solid gold;
+            background-color: black;
+            color: gold;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .mod-button:hover {
+            background-color: gold;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Friday Night Funkin Mods</h1>
+    </div>
+
+    <a class="mod-button" onclick="window.location.href='/fnf/shaggymatt'">shaggy x matt</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/Corruption'">corruption</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/Miku'">Miku</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/XE'">vs XE</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/ann'">ann</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/bsides'">bsides</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/deepseadate'">deep sea date</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/everywhereattheendoffunk'">EATEOF</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/flipside'">FlipSide</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/h3llbeats'">Heck beats</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/henry'">vs Henry Stickmin</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/hex'">vs Hex</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/kapi'">vs kapi (old)</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/matt'">vs Matt (first 2 weeks)</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/minus'">Friday Night Funkin: Minus</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/monika'">vs Monika Full Week</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/neo'">FNF Neo (old)</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/rosecriminal'">Michael Jackson's Smooth Criminal over "Roses"</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/saltyssundaynight'">Salty's Sunday Night</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/shaggy'">vs Shaggy (old)</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/shaggyhd'">vs Shaggy HD</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/smokeemoutstruggle'">vs Garcello</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/starcatcher'">Star Catcher</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/sussy2'">vs Impostor 2.0</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/tabi'">vs Ex</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/tord'">vs tord</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/touhou'">Touhou</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/upside'">FNF Upside</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/void'">vs Void</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/vschara'">vs Chara</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/week6'">Week 6</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/week7'">Week 7</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/whitman'">vs Whitty</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/x-sides'">X Sides</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/xevent'">X event</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/zardy'">vs Zardy (old)</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/tricky'">Tricky FULL WEEK</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/'">Impostor V3</a>
+    <a class="mod-button" onclick="window.location.href='/fnf/dusttale'">Dust Tale</a>
+</body>
+</html>
